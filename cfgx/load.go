@@ -5,7 +5,7 @@ package cfgx
 //
 // dst must be a pointer to a struct.
 //
-// In v1, sources are:
+// In v0, sources are:
 //   1) Environment variables
 //   2) Declarative defaults (tag `default`)
 //   3) Zero values (if neither env nor default is present)
